@@ -1,0 +1,119 @@
+<div class="miuul_register_form">
+  <h3 class="header">Form Register</h3>
+  <div class="title">Hoşgeldiniz</div>
+  <form
+    action="#!"
+    method="get"
+    id="register_id"
+    name="register_name"
+    enctype="multipart/form-data"
+  >
+    <table>
+      <tbody>
+        <!-- USERNAME -->
+        <tr>
+          <td><span for="username">Username:</span></td>
+          <td>
+            <div class="miuul_container">
+              <input
+                type="text"
+                id="username"
+                name="username"
+                required
+                placeholder="Kullanıcı adınız " class="miuul_input"
+                title="Kullanıcı adınız"
+                autofocus
+              />
+            </div>
+          </td>
+        </tr>
+
+        <!-- NAME -->
+        <tr>
+          <td><span for="uname">Name:</span></td>
+          <td>
+            <div class="miuul_container">
+            <input
+              type="text"
+              id="uname"
+              name="uname"
+              required
+              placeholder="Adınız" class="miuul_input"
+              title="Adınız"
+            />
+        </div>
+          </td>
+        </tr>
+        <!-- SURNAME -->
+        <tr>
+          <td><span for="usurname">Surname:</span></td>
+          <td>
+            <div class="miuul_container">
+            <input
+              type="text"
+              id="usurname"
+              name="usurname"
+              required
+              placeholder="Soyadınız" class="miuul_input"
+              title="Soyadınız"
+            />
+        </div>
+          </td>
+        </tr>
+        <!-- EMAİL -->
+        <tr>
+          <td><span for="uemail">Email:</span></td>
+          <td>
+            <div class="miuul_container">
+            <input
+              type="email"
+              id="uemail"
+              name="uemail"
+              required
+              placeholder="Kullanıcı Emailiniz" class="miuul_input"
+              title="Kullanıcı Emailiniz"
+            />
+        </div>
+          </td>
+        </tr>
+        <!-- PASSWORD -->
+
+        <tr>
+          <td><span for="upassword">Password:</span></td>
+          <td>
+            <div class="miuul_container">
+            <input
+              type="password"
+              id="upassword"
+              name="upassword"
+              required
+              placeholder="Kullanıcı Şifresi" class="miuul_input"
+              title="Kullanıcı Şifresi"
+              minlength="3"
+              maxlength="10"
+              pattern="[a-zA-Z0-9]{3,10}"
+            />
+        </div>
+          </td>
+        </tr>
+
+        <!-- RESET SUBMİT -->
+        <tr>
+          <td></td>
+          <td>
+            <input
+              type="reset"
+              name="reset"
+              id="reset"
+              title="Temizle"
+              value="Temizle"
+            />
+            <button type="submit" name="submit" id="submit" title="Gönder">
+              Gönder
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</div>
